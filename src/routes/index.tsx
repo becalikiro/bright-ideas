@@ -161,4 +161,57 @@ td,td b,.product-cell b,.activity-copy b{color:#d5dbe4!important}
 .top-divider{background:#353b44!important}
 .mobile-menu{color:#c3cad4!important}
 
+
+/* Soft pink theme */
+:root{color:#542d40!important;background:#fff4f8!important}
+body,.app-shell{background:#fff4f8!important;color:#542d40!important}
+.sidebar,.topbar{background:#fffafd!important;border-color:#f3dce6!important}
+.brand strong,.workspace b,.user-copy b,.top-user b{color:#542d40!important}
+.brand-mark,.btn-primary{background:#d94f86!important;color:#fff!important;box-shadow:0 4px 12px #d94f8630!important}
+.workspace,.help-card,.stat-card,.panel,.modal-card{background:#fffafd!important;border-color:#f1dce5!important}
+.workspace{background:#fff1f6!important}
+.workspace-icon,.nav-item.active,.count-pill{background:#fce2ed!important;color:#b8326b!important}
+.nav-item{color:#936d7e!important}
+.nav-item:hover,.icon-button:hover,.more-btn:hover{background:#fcebf2!important;color:#a92e64!important}
+.nav-count{background:#ffe8d6!important;color:#b76b2a!important}
+.user-profile,th,td,.activity-item{border-color:#f3e4ea!important}
+.breadcrumb b,.page-heading h1,.panel-head h3,.list-toolbar h3,.stat-value,.chart-summary strong,.inventory-ring strong,.inventory-legend b,.placeholder-page h1,.modal-head h2{color:#542d40!important}
+.page-heading p,.panel-head p,.list-toolbar p,.stat-top,.stat-foot,.chart-summary span,.inventory-ring small,.inventory-legend div,.activity-copy span,.placeholder-page p,.coming-soon{color:#a17e8d!important}
+.search-box,.select-button,.btn-outline,.modal-card input{background:#fff7fa!important;border-color:#efd8e3!important;color:#80586b!important}
+.search-box input,.modal-card input{color:#542d40!important}
+.search-box kbd{background:#fcecf2!important;border-color:#f1dce6!important;color:#9d7788!important}
+.stat-top,.panel-head,.list-toolbar{color:#80586b!important}
+.stat-value{color:#542d40!important}
+.chart-summary span,.chart-legend span{color:#9b7888!important}
+.bar-chart{border-color:#f3e4ea!important}
+.bar-pair:before{background:repeating-linear-gradient(to bottom,transparent 0,transparent 30px,#f7e8ee 31px,#f7e8ee 32px)!important}
+.bar-pair i{background:#d94f86!important}
+.bar-pair i+i{background:#f2b8d0!important}
+.inventory-ring{background:conic-gradient(#d94f86 0 78%,#f2a6c3 78% 94%,#f4d5e2 94% 100%)!important}
+.inventory-ring:before{background:#fffafd!important}
+.dot-green{background:#d94f86!important}.dot-orange{background:#f2a6c3!important}.dot-red{background:#c8799a!important}
+.product-icon{background:#fceaf1!important;color:#bd5680!important}
+td,td b,.product-cell b,.activity-copy b{color:#684457!important}
+.muted-cell,.sub-cell{color:#a17e8d!important}
+.modal-card label{color:#80586b!important}
+.modal-card input:focus{border-color:#dc75a0!important;box-shadow:0 0 0 3px #fce2ed!important}
+.modal-actions{border-color:#f3e4ea!important}
+.empty-state{color:#a17e8d!important}
+.footer{color:#a17e8d!important}
+.top-divider{background:#f1dce6!important}
+.mobile-menu{color:#80586b!important}
+.stat-icon.blue,.activity-icon.blue{background:#fce2ed!important;color:#c43e78!important}
+.stat-icon.purple,.activity-icon.purple{background:#f4e7f5!important;color:#9b5b9d!important}
+.stat-icon.green,.activity-icon.green{background:#e9f5ee!important;color:#39875e!important}
+.stat-icon.orange,.activity-icon.orange{background:#fff0e2!important;color:#bd783d!important}
+.stat-icon.red{background:#fce5e8!important;color:#c65a6a!important}
+.status.success{background:#e9f5ee!important;color:#39875e!important}
+.status.warning{background:#fff0e2!important;color:#bd783d!important}
+.status.danger{background:#fce5e8!important;color:#c65a6a!important}
+.status.neutral{background:#f5eaf0!important;color:#936d7e!important}
+.text-link,.help-card button{color:#c43e78!important}
+.placeholder-icon{background:#fce2ed!important;color:#c43e78!important}
+.toast{background:#8f3159!important;color:#fff!important}
+.toast svg{color:#ffd5e5!important}
+
 `;
