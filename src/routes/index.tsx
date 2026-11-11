@@ -1,15 +1,15 @@
 import { useMemo, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import {
-  Activity, ArrowDownToLine, ArrowUpRight, Bell, Boxes, BriefcaseBusiness,
-  ChartNoAxesCombined, ChevronDown, ChevronLeft, ChevronRight, CircleHelp,
-  Command, Download, Ellipsis, FileText, LayoutDashboard, Menu, Package,
+  Activity, ArrowDownToLine, ArrowUpRight, Bell, Boxes,
+  ChartNoAxesCombined, ChevronDown, ChevronRight, CircleHelp,
+  Download, Ellipsis, LayoutDashboard, Menu, Package,
   Plus, Search, Settings2, ShoppingCart, SlidersHorizontal, Sparkles,
   TrendingDown, TrendingUp, Users, Warehouse, X, AlertTriangle, Check,
-  CalendarDays, Filter, MoreHorizontal,
+  Filter, MoreHorizontal,
 } from "lucide-react";
 
-export const Route = createFileRoute("/")({ component: Index });
+export const Route = createFileRoute("/")({\n  head: () => ({ meta: [{ title: "StockFlow | Gestão de Clientes e Stock" }, { name: "description", content: "Plataforma de gestão de clientes, produtos e inventário." }] }),\n  component: Index,\n});
 
 type Client = { id: number; name: string; company: string; email: string; phone: string; status: "Ativo" | "Inativo"; spent: number; initials: string; color: string };
 type Product = { id: number; name: string; sku: string; category: string; stock: number; min: number; price: number; status: "Em stock" | "Stock baixo" | "Esgotado" };
